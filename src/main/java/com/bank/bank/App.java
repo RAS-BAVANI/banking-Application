@@ -11,7 +11,7 @@ public class App {
     public void deposit(int amount) {
         if (amount > 0) {
             balance += amount;
-            transactions.add("Deposited: " + amount);
+            transactions.add("Deposited amount: " + amount);
         }
     }
 
